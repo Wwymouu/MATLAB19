@@ -1,0 +1,9 @@
+N=10000;
+sum=0;
+for k=1:N
+    sum=sum+1/k^2;
+end
+
+error=abs(sum-pi^2/6);
+
+disp(error)
